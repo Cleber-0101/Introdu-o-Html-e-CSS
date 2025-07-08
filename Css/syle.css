@@ -1,8 +1,56 @@
 body{
-  padding: 100px;
+  padding: 50px;
 }
 
 h4{
   color: gold;
   font-size: 100px;
 }
+
+/*comentarios em css*/
+/*mais um comentario*/
+
+.paragrafo{
+  background-color: black;
+  color: aqua;
+  padding: 5px;
+}
+
+#nome{
+  color: yellow;
+  background-color: purple;
+  padding: 5px;
+}
+
+/*Inserindo cores usando nome das mesmas*/
+.class-name{
+  color: crimson
+}
+
+/*Inserindo cores usando hexadeciamal*/
+.class-hex{
+  color: #1d0;
+}
+
+/*inserindo cores usando RGBA praticando opacidade*/
+.class-rgba{
+  color: rgba(100, 350, 500, 0,2);
+  background-color: rgb(167, 117, 117);
+  padding: 5px;
+}
+
+.teste1{
+  background-color: yellow;
+  color: red;
+}
+
+#teste2{
+  background-color: red;
+  color: yellow;
+}
+
+.opacity{
+  background-color: blueviolet;
+  opacity: 0.45;
+}
+
