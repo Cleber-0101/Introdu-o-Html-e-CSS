@@ -102,3 +102,30 @@ h4 {
   margin-top: 25px;
   margin: 30px;
 }
+
+/*aplicando padding em 2 elementos*/
+.este-conteudo-tem-padding,
+.este-conteudo-sem-padding{
+  background-color: yellow;
+  color: black;
+  /*padding: 30px;*/
+}
+
+.este-conteudo-tem-padding{
+  padding: 30px;
+  background-color: red;
+}
+
+
+/*Padding individual*/
+.padding-individual{
+  font-size: 40px;
+  color: white;
+  background-color: orange;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  padding-bottom: 40px;
+  border: solid red 5px;
+  margin: 20px;
+}
