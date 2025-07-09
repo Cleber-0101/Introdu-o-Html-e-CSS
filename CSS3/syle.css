@@ -1,0 +1,86 @@
+body {
+  padding: 50px;
+}
+
+h4 {
+  color: gold;
+  font-size: 100px;
+}
+
+/* Comentários em CSS */
+/* Mais um comentário */
+
+.paragrafo {
+  background-color: black;
+  color: aqua;
+  padding: 5px;
+}
+
+#nome {
+  color: yellow;
+  background-color: purple;
+  padding: 5px;
+}
+
+/* Inserindo cores usando nome das mesmas */
+.class-name {
+  color: crimson;
+}
+
+/* Inserindo cores usando hexadecimal */
+.class-hex {
+  color: #1d0;
+}
+
+/* Inserindo cores usando RGBA, praticando opacidade */
+.class-rgba {
+  color: rgba(100, 150, 200, 0.2);
+  background-color: rgb(167, 117, 117);
+  padding: 5px;
+}
+
+.teste1 {
+  background-color: yellow;
+  color: red;
+}
+
+#teste2 {
+  background-color: red;
+  color: yellow;
+}
+
+.opacity {
+  background-color: blueviolet;
+  opacity: 0.45;
+}
+
+/* Inserindo imagem no background dos elementos HTML */
+.imagem {
+  background-image: url(img/animal-1.webp);
+  color: wheat;
+  padding: 10px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+/*Aplicando uma regra para mult elementos*/
+.centralizando-imagem1,
+.centralizando-imagem2 {
+  background-image: url(img/animal-2.webp);
+  padding: 5px;
+  height: 600px;
+  width: 500px;
+  color: red;
+  margin-top: 10px;
+}
+
+/*centralizando apenas uma imagem*/
+.centralizando-imagem2{
+  background-position: center;
+  background-size: cover;
+}
+
+.centralizando-imagem1{
+  background-position: center;
+  background-size: cover;
+}
