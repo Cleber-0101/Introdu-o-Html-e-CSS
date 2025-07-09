@@ -1,5 +1,5 @@
 body {
-  padding: 50px;
+  padding: 10px;
 }
 
 h4 {
@@ -83,4 +83,22 @@ h4 {
 .centralizando-imagem1{
   background-position: center;
   background-size: cover;
+}
+
+
+/* largura e altura */
+.largura-altura1{
+  height: 200px;
+  width: 100px;
+  background-color: red;
+  margin-top: 25px;
+  margin: 30px;
+}
+
+
+.largura-altura2{
+  height: 300px;
+  background-color: blue;
+  margin-top: 25px;
+  margin: 30px;
 }
