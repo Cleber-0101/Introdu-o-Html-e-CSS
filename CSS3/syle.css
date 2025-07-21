@@ -129,3 +129,8 @@ h4 {
   border: solid red 5px;
   margin: 20px;
 }
+
+/*Regras de estilos para bordas*/
+.border{
+  border: 5px solid red ;
+}
