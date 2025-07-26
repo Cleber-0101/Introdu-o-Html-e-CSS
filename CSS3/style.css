@@ -156,3 +156,15 @@ h4 {
   width: 300px;
   border: 1px solid red;
 }
+
+.underline{
+  text-decoration: underline;
+}
+
+.line{
+  text-decoration: line-through;
+}
+
+.remove-underline{
+  text-decoration: none;
+}
