@@ -4,6 +4,47 @@
 } */
 
  html{
-    font: helvetica,
-    back;
+    font-family: helvetica;
+    background-color: #ddd;   
+ }
+
+ .container{
+    max-width: 1100px;
+    background-color: white;
+    position: relative ;
+    margin: 50px auto;
+    padding: 20px 50px;
+ }
+
+ .bold{
+    font-weight: bold  ;
+ }
+
+ header{
+    text-align: center;
+ }
+
+ .main-title{
+    font-size: 40px;
+    text-align: center;
+ }
+
+ .featured-image{
+    text-align: center;
+    margin-top: 30px;
+ }
+
+ .main-paragrafo{
+    text-align: center;
+ }
+
+ .biografia{
+    background-color: #ddd;
+    padding: 30px;
+ }
+
+ .div-curisidades{
+    padding: 30px;
+    background-color: #ddd;
+    margin-top: 30px;
  }
